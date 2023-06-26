@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction</title>
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- introduction -->
+    <!-- hetElementById() methods innetHtml -->
+
+    <p id="demo">js can change html content</p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("demo").innerHTML = "Hello JS!"'
+    >
+      click me
+    </button>
+
+    <p id="demo1">example 2 with js tansform content</p>
+
+    <button type="button" onclick="demo1()">click me</button>
+
+    <p id="demo2">another example using funtions</p>
+
+    <button type="button" onclick="demo2()">click me</button>
+
+    <!-- js style element -->
+
+    <p id="style1">i can add from js some style!</p>
+    <button type="button" onclick="StyleMe()">click me</menu></button>
+ 
+    <br>
+    <br>
+
+    <span id="style2"> add some style!</span>
+    <br>
+
+    <button type="button" onclick="StyleMe2()">click me</button>
+
+    <!-- js output display -->
+
+    <!-- document.getElementById().innerHTML -->
+    <h3> output method with document.getElementById().innerHTML</h3>
+    <p id="output1"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+    <p id="output4"></p>
+
+    <!-- document.write() -->
+    <h3> output method with document.write()</h3>
+
+    <script>
+        document.write("5 + 6 =", 5 + 6);
+       
+    </script>
+    <br>
+    <script>
+         document.write( "All numbers divided by 0 is: " , 2/0);
+    </script>
+    
+    <!-- window.alert() -->
+
+    <h3> output method with window.alert() </h3>
+    <p>message will be displayed on screen </p>
+    <script>
+        const a1 = 5;
+        const a2 = 6;
+        const a3 = a1 + a2;
+        window.alert(" 5 + 6 = " + a3);
+    </script>
+    <script>
+        window.alert( " it is alert that will be displayed on screen before all");
+    </script>
+
+    <!-- console.log() -->
+
+    <h3> output method with console.log() </h3>
+    <p>check js code for exemples!</p>
+    
+    <!-- js syntax -->
+
+    <h3>Js identifiers / names </h3>
+    <p> check console for exemples</p>
+
+    <!-- JavaScript Arithmetic Operators -->
+
+    <h3>we do some math!</h3>
+    <p>check console for some exemples!</p>
+
+    <!-- JavaScript Assignment Operators -->
+
+    <h3>JavaScript Assignment Operators</h3>
+    <p>we can use them for short form operators</p>
+    <p>check console for some exemples!</p>
+
+    <!--JavaScript Data Types  -->
+
+    <h3>JavaScript Data Types</h3>
+    <p>check console for some exemples!</p>
+
+
+
+</body>
+</html>
